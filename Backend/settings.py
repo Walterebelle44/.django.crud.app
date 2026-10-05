@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'User',
     'Livres',
+    'Employes',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "DjangoPostregresql-test",
         "USER": "postgres",
-        "PASSWORD": "Postgres-password",
+        "PASSWORD": "Gautier44",
         "HOST": "localhost",
         "PORT": "5432",
     }
