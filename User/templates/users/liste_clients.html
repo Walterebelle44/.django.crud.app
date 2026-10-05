@@ -1,0 +1,9 @@
+{% extends 'users/base.html' %}
+{% block content %}
+    <h1>Liste des clients</h1>
+    <ul>
+        {% for client in clients %}
+            <li>{{ client.name }} - {{ client.email }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
